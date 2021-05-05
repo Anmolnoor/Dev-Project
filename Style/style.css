@@ -1,4 +1,27 @@
-.anmol {
-  font-size: 5rem;
+body {
+  background-color: black;
+}
+
+.row {
+  padding-top: 6%;
+}
+
+.title-image {
+  width: 50%;
+  position: absolute;
+  margin-left: 30%;
+  transform: rotate3d(15deg);
+  left: 10%;
+}
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
   text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.btn {
+  margin-left: 40%;
 }
