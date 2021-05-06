@@ -7,9 +7,9 @@ body {
 }
 
 .title-image {
-  width: 50%;
-  position: absolute;
-  margin-left: 30%;
+  width: 70%;
+  height: 70%;
+  margin-left: 10%;
   transform: rotate3d(15deg);
   left: 10%;
 }
@@ -22,13 +22,64 @@ body {
   font-family: "Times New Roman", Times, serif;
 }
 
+.big-heading2 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+  text-align: right;
+  font-family: "Times New Roman", Times, serif;
+}
+
 .btn {
-  margin-left: 40%;
+  margin-left: 30%;
 }
 
-
-.navBar{
-  background-color: black;
-  
+.navbar-brand {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-left: 20%;
 }
 
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  text-align: center;
+}
+
+/*section {
+  width: 100%;
+  position: relative;
+}
+
+nav {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 0px 100px;
+}
+
+.logo {
+  font-size: 1rem;
+  letter-spacing: 5px;
+  color: #fff;
+}
+
+.menu a {
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.menu a:last-child {
+  background-color: #de3031;
+  border-radius: 8px;
+  letter-spacing: 2px;
+  color: #fff;
+}*/
