@@ -30,25 +30,45 @@ body {
   font-family: "Times New Roman", Times, serif;
 }
 
-.btn {
+.btn2 {
   margin-left: 30%;
+   text-align: center ;
 }
 
 .navbar-brand {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-weight: bold;
   font-size: 1rem;
   margin-left: 20%;
 }
 
+.nav-list{
+  margin-right: auto;
+  font-weight: bold;
+}
+
 .nav-item {
   padding: 0 18px;
+  
 }
 
 .nav-link {
   text-align: center;
+ 
 }
+
+
+.navbar-brand{
+  font-family: 'Patua One', cursive;
+  font-size: 20px;
+  text-align: center;
+  margin: auto 10% auto 7%;
+}
+
+#navbarTogglerDemo02{
+  margin-right: 10%;
+}
+
 
 /*section {
   width: 100%;
