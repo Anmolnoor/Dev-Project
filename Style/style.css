@@ -32,7 +32,7 @@ body {
 
 .btn2 {
   margin-left: 30%;
-   text-align: center ;
+  text-align: center ;
 }
 
 .navbar-brand {
@@ -54,7 +54,6 @@ body {
 
 .nav-link {
   text-align: center;
- 
 }
 
 
@@ -68,6 +67,26 @@ body {
 #navbarTogglerDemo02{
   margin-right: 10%;
 }
+
+.hr1{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 1px;
+  width:50%;
+  float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*section {
