@@ -1,0 +1,43 @@
+*{
+    margin:0% ;
+    padding:0% ;
+    box-sizing: border-box;
+}
+
+h1{
+   font-family: 'Bree Serif', serif;;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav_item{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    width: fit-content  ;
+    text-align: center;
+    font-family: 'Mitr', sans-serif;
+}
+
+.nav_item_link{
+    color: #fff;
+}
+
+
+.navbar_list {
+    text-align: center;
+    width: fit-content;
+    margin-top: 12px;
+    font-size: 20px;
+}
+.nav_icon i {
+    padding: 30px;
+}
+
+.navbar_list_inner{
+    text-align: center;
+   
+} 
