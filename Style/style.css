@@ -4,8 +4,12 @@
     box-sizing: border-box;
 }
 
+body{
+  background-color: black;
+}
+
 h1{
-   font-family: 'Bree Serif', serif;;
+   font-family: 'Bree Serif', serif;
 }
 
 .navbar{
@@ -26,6 +30,10 @@ h1{
     color: #fff;
 }
 
+.nav_item_link:hover{
+    color: rgb(60, 255, 0);
+}
+
 
 .navbar_list {
     text-align: center;
@@ -33,11 +41,108 @@ h1{
     margin-top: 12px;
     font-size: 20px;
 }
-.nav_icon i {
-    padding: 30px;
+
+.nav_icon_inner {
+  justify-content: space-evenly;
 }
 
 .navbar_list_inner{
     text-align: center;
    
 } 
+
+
+/* Hero-Part */
+
+.hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+ 
+}
+
+.hero_title{
+ 
+   padding: 10px;
+   margin-top: 20%;
+   height: fit-content;
+   width: fit-content;
+   margin:15% 0 0 15%;
+}
+
+.hero_heading{
+    line-height: 1.5;
+    font-size: 5rem;
+    text-align: center;
+    grid-column: 1/2;
+    background: -webkit-linear-gradient(rgb(255, 251, 0), rgb(30, 255, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Suez One', serif;
+}
+
+.hero_mypic {
+ 
+    width: 60%;
+    grid-column: 2/3;
+    margin: 5% 0  0 20% ;
+}
+
+.hr1{
+ 
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 1px;
+    width:50%;
+    float: right;
+   
+  }
+
+  /* Institutional */
+
+  .institutional{
+    text-align: center;
+    margin:5% 10%;
+ }
+ 
+ .institute_heading {
+   margin-top:10%;
+   font-family: Times New Roman", Times, serif;
+ }
+ 
+ 
+ .institute_heading_1{
+   padding: 5px;
+   font-weight: bold;
+   text-align: center;
+   font-size: 3.5rem;
+   line-height: 1.5;
+   color:#fff;
+   font-family: 'Bree Serif', serif;
+ }
+ 
+ .institute_img{
+   margin-top: 5%;
+ }
+ 
+
+ .institute_img_1 {
+    height: 400px;
+    width: 700px;
+ }
+ 
+ 
+ .hr2{
+  
+   border-style: none;
+   border-top-style: dotted;
+   border-color: grey;
+   border-width: 1px;
+   width:50%;
+   float: left;
+
+ }
+
+ /* Main-Skill */
+
+
