@@ -99,6 +99,18 @@ h1{
    
   }
 
+  
+.hr2{
+ 
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 1px;
+  width:50%;
+  
+ 
+}
+
   /* Institutional */
 
   .institutional{
@@ -155,9 +167,10 @@ h1{
 }
 
 .progress_bar{
-  padding: 5px;
-  display: inline-block;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-top: 5%;
 }
 
 .progress-circle {
